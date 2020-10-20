@@ -1,0 +1,6 @@
+CREATING the FEIGN Client example having feign client dependancy.
+@EnableFeignClients in Main class.
+It is abstraction over REST call. It's Declarative web service call.
+Create Interface with @FeignClient with name and url
+and write abstract method with having a uri over HTTP Method.
+By using interface ref call the method(Service).
